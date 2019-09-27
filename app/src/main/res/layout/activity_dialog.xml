@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".DialogActivity">
+
+    <Button
+        android:id="@+id/btn_two"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="普通的dialog"
+        android:textAllCaps="false"/>
+
+    <Button
+        android:id="@+id/btn_three"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="三个按钮的dialog"
+        android:textAllCaps="false"/>
+
+    <Button
+        android:id="@+id/btn_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="列表 dialog"
+        android:textAllCaps="false"/>
+
+    <Button
+        android:id="@+id/btn_multi_select"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="多选 dialog"
+        android:textAllCaps="false"/>
+
+    <Button
+        android:id="@+id/btn_Single_select"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="单选 dialog"
+        android:textAllCaps="false"/>
+
+    <Button
+        android:id="@+id/btn_Waiting"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="加载中 dialog"
+        android:textAllCaps="false"/>
+
+    <Button
+        android:id="@+id/btn_Loading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="进度条显示加载dialog"
+        android:textAllCaps="false"/>
+
+    <Button
+        android:id="@+id/btn_Single_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="一个输入框的dialog"
+        android:textAllCaps="false"/>
+
+    <Button
+        android:id="@+id/btn_Customer_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="自定义输入框的dialog"
+        android:textAllCaps="false"/>
+
+
+
+
+</LinearLayout>

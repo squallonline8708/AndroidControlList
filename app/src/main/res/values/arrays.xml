@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="operation">操作</string>
+    <string-array name="ListItem">
+        <item>添加</item>
+        <item>删除</item>
+        <item>更新</item>
+        <item>查询</item>
+    </string-array>
+</resources>

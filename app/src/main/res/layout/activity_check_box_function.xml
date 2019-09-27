@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity" >
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="match_parent"
+        android:layout_height="32dp"
+        android:gravity="left|center"
+        android:text="请选择您的爱好："
+        android:textColor="#333333"
+        android:textSize="14sp" />
+
+    <CheckBox
+        android:id="@+id/cb_check_all"
+        android:layout_width="match_parent"
+        android:layout_height="32dp"
+        android:layout_below="@+id/tv_title"
+        android:gravity="left|center"
+        android:text="全选 / 全不选"
+        android:textColor="#333333"
+        android:textSize="14sp" />
+
+    <CheckBox
+        android:id="@+id/cb_game"
+        android:layout_width="match_parent"
+        android:layout_height="32dp"
+        android:layout_below="@+id/cb_check_all"
+        android:gravity="left|center"
+        android:text="游戏"
+        android:textColor="#333333"
+        android:textSize="14sp" />
+
+    <CheckBox
+        android:id="@+id/cb_music"
+        android:layout_width="match_parent"
+        android:layout_height="32dp"
+        android:layout_below="@+id/cb_game"
+        android:gravity="left|center"
+        android:text="听歌"
+        android:textColor="#333333"
+        android:textSize="14sp" />
+
+    <CheckBox
+        android:id="@+id/cb_coding"
+        android:layout_width="match_parent"
+        android:layout_height="32dp"
+        android:layout_below="@+id/cb_music"
+        android:gravity="left|center"
+        android:text="编程"
+        android:textColor="#333333"
+        android:textSize="14sp" />
+
+    <Button
+        android:id="@+id/btn_submit"
+        android:layout_width="wrap_content"
+        android:layout_height="36dp"
+        android:layout_below="@+id/cb_coding"
+        android:text="提交"
+        android:textColor="#333333"
+        android:textSize="14sp" />
+
+</RelativeLayout>

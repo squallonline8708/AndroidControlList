@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="HintSpinner">产线区域</string>
+    <string-array name="ZONE">
+        <item>A_Zone</item>
+        <item>B_Zone</item>
+        <item>C_Zone</item>
+        <item>D_Zone</item>
+    </string-array>
+</resources>

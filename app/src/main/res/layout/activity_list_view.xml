@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ListViewActivity">
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="#000"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="一般ListView"/>
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="#000"
+        />
+    <!--一般ListView-->
+    <ListView
+        android:id="@+id/lvFruit"
+        android:layout_width="wrap_content"
+        android:layout_height="280dp">
+    </ListView>
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="#000"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="含有滚动条的ListView"/>
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="#000"/>
+
+    <!--带纵向滚动条的ListView-->
+    <!--绑定动态数据源的ListView-->
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="120dp"
+        android:scrollbars="vertical">
+        <com.sdpw.squall.temp_app.ScrollListView
+            android:id="@+id/ScrolllvFruit"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            />
+    </ScrollView>
+
+</LinearLayout>
